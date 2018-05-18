@@ -19,41 +19,29 @@ const handleSelect = item => {
 
 const items = [
 	{
-		label: 'Website',
-		url: 'https://sindresorhus.com'
+		label: 'Facebook',
+		url: 'https://www.facebook.com/hayakawatomoyuki'
 	},
 	{
-		label: 'Twitter',
-		url: 'https://twitter.com/sindresorhus'
+		label: 'Instagrame',
+		url: 'https://www.instagram.com/tomoyuki_hayakawa/'
 	},
 	{
 		label: 'GitHub',
-		url: 'https://github.com/sindresorhus'
+		url: 'https://github.com/tomoyukiHAYAKAWA'
 	},
 	{
-		label: 'Blog',
-		url: 'https://blog.sindresorhus.com'
+		label: 'Qiita',
+		url: 'https://qiita.com/tomoyuki_HAYAKAWA'
 	},
 	{
-		label: 'Ask Me Anything',
-		url: 'https://github.com/sindresorhus/ama'
+		label: 'Twitter',
+		url: 'https://twitter.com/tomotarosu13'
 	},
 	{
-		label: 'Contact',
-		url: 'https://sindresorhus.com/contact'
-	},
-	{
-		label: 'Support my open source work',
-		url: 'https://www.patreon.com/sindresorhus'
-	},
-	{
-		label: 'Unicorns!',
-		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn1.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn2.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn3.gif')));
-		}
-	},
+		label: 'App Store',
+		ulr: 'https://itunes.apple.com/jp/developer/tomoyuki-hayakawa/id1373573441?mt=8'
+	}
 	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
 	{
 		label: 'Quit',
@@ -67,7 +55,7 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>I’m a full-time open-sourcerer making things like macOS apps, CLI tools, and modules.</Text>
+			<Text>Hello! I’m Tomoyuki Hayakawa. iOS App, Image proccesing, OpenCV, Life is Tech!</Text>
 		</div>
 		<br/>
 		<SelectInput items={items} onSelect={handleSelect}/>

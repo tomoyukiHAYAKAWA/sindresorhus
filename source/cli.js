@@ -11,11 +11,11 @@ const ui = importJsx('./ui');
 
 meow(`
 	Usage
-	  $ sindresorhus
+	  $ tomoyukiHayakawa
 `);
 
 const fallback = async () => {
-	const image = await terminalImage.file(path.join(__dirname, 'avatar-fallback.png'));
+	const image = await terminalImage.file(path.join(__dirname, 'avatarImage.png'));
 	console.log(image);
 };
 
